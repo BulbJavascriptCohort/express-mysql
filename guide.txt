@@ -1,0 +1,18 @@
+Newspaper Database Guide
+==============
+
+ARTICLE SCHEMA
+1) id: int
+2) name: string / varchar
+3) description/snippet: string / text / varchar2
+4) picture/images: blob
+5) date-created: date
+6) author-id: int
+7) content: text
+
+AUTHOR SCHEMA
+1) id: int
+2) surname: string / varchar
+3) firstname: string / varchar
+
+
