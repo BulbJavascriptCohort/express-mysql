@@ -44,6 +44,21 @@ module.exports = {
     CoinDeskAPI
 }
 
+// idea => object
+// food ==> bread/beans, pizza, etc
+
+class Rectangle {
+    constructor(height, width) {
+      this.h = height;
+      this.w = width;
+    }
+}
+
+let r1 = new Rectangle(4, 7);
+console.log(r1)
+// r1 is an object/instance of the class rectangle
+  
+
 
 class HumanBeing{
     // initialise the class
